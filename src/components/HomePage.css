@@ -1,0 +1,64 @@
+.major-box {
+    font-family: "Sarpanch", sans-serif;
+    font-weight: bold;
+    line-height: 80%;
+    font-size: 8rem;
+    text-align: left;
+    color: #ffffff;
+    user-select: none;
+    transform-origin: left;
+    width: min-content;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+
+}
+
+.main-paragraph {
+    font-family: "Jura", sans-serif;
+    font-weight: 800;
+    font-size: 2.4rem;
+    color: #ffffff;
+    text-align: left;
+    float: left;
+    width: 45%;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+
+}
+
+.letschat {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 8px;
+    padding-top: 20vh;
+    width: 100%;
+    font-weight: 700;
+}
+
+.frame {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+
+@media (max-width: 400px) {
+    .major-box {
+        font-size: 2rem;
+        margin-left: 8px;
+    }
+
+    .main-paragraph {
+        padding-top: 60px;
+        font-size: 1.8rem;
+        width: 100%;
+    }
+
+    .letschat {
+        font-size: 4rem;
+    }
+}
